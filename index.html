@@ -5,40 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Song Lyric Generator</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <h1>AI Song Lyric Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a prompt"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>The lyrics will appear here</div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/emmaa1009-collab" target="_blank"
-        >Emma Barnes</a
-      >
-      and is
-      <a
-        href="https://github.com/emmaa1009-collab/song-lyric-generator"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and
-      <a href="https://aisonglyricgenerator.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Song Lyric Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a prompt"
+            autofocus
+            required
+            autocomplete="off"
+            class="lyric-prompt-input"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="lyric-output">The lyrics will appear here</div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/emmaa1009-collab" target="_blank"
+          >Emma Barnes</a
+        >
+        and is
+        <a
+          href="https://github.com/emmaa1009-collab/song-lyric-generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="https://aisonglyricgenerator.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>

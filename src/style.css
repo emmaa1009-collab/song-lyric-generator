@@ -1,0 +1,94 @@
+body {
+  background-color: #0b132b;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  color: #ff477e;
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+footer {
+  font-size: 0.8rem;
+  padding: 20px;
+}
+
+a {
+  font-weight: 500;
+  color: #ff477e;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #ffb997;
+  font-weight: bold;
+}
+
+.container {
+  background-color: #f7f7f7;
+  border: 0px;
+  border-radius: 10px;
+  box-shadow: 0 0 25px 5px rgba(255, 71, 126, 0.6);
+  margin: 0 auto;
+  text-align: center;
+  width: 800px;
+}
+
+.lyric-prompt-input {
+  background-color: #f7f7f7;
+  border: 1px solid #5f0f40;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(95, 15, 64, 0.1);
+  color: #0b132b;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  outline: none;
+  padding: 0.9rem 1rem;
+  width: 50%;
+}
+
+.submit-button {
+  background: linear-gradient(180deg, #ff477e, #5f0f40);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(95, 15, 64, 0.1);
+  color: #f7f7f7;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  padding: 0.9rem 2rem;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.submit-button:hover {
+  background: linear-gradient(180deg, #ffb997, #ff477e);
+  box-shadow: 0 0 10px rgba(255, 71, 126, 0.7);
+}
+
+.lyric-output {
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(95, 15, 64, 0.3);
+  color: #0b132b;
+  background-color: #f7f7f7;
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  line-height: 1.7;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 80%;
+}
