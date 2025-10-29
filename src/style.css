@@ -13,10 +13,6 @@ h1 {
   text-align: center;
 }
 
-form {
-  margin-bottom: 20px;
-}
-
 footer {
   font-size: 0.8rem;
   padding: 20px;
@@ -42,6 +38,17 @@ a:hover {
   margin: 0 auto;
   text-align: center;
   width: 800px;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+.hint {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-right: 150px;
+  margin-top: 5px;
 }
 
 .lyric-prompt-input {
@@ -91,4 +98,8 @@ a:hover {
   margin: 0 auto;
   padding: 2rem;
   width: 80%;
+}
+
+.hidden {
+  display: none;
 }

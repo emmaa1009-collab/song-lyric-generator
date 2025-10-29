@@ -26,21 +26,22 @@
         <h1>AI Song Lyric Generator</h1>
       </header>
       <main>
-        <form id="lyric-generator-form">
-          <input
-            type="text"
-            placeholder="Enter a prompt"
-            autofocus
-            required
-            autocomplete="off"
-            class="lyric-prompt-input"
-            id="lyric-prompt-input"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="lyric-output" id="lyric-output">
-          <!-- The lyrics will appear here-->
+        <div class="form-container">
+          <form id="lyric-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a topic for your song"
+              autofocus
+              required
+              autocomplete="off"
+              class="lyric-prompt-input"
+              id="lyric-prompt-input"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">e.g. Rain, dogs, happiness</div>
         </div>
+        <div class="lyric-output hidden" id="lyric-output"></div>
       </main>
       <footer>
         This AI project was coded by
