@@ -17,6 +17,8 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
@@ -24,7 +26,7 @@
         <h1>AI Song Lyric Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="lyric-generator-form">
           <input
             type="text"
             placeholder="Enter a prompt"
@@ -35,7 +37,9 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="lyric-output">The lyrics will appear here</div>
+        <div class="lyric-output" id="lyric-output">
+          <!-- The lyrics will appear here-->
+        </div>
       </main>
       <footer>
         This AI project was coded by
